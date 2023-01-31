@@ -1,0 +1,5 @@
+parser: CS315f22_team37.yacc CS315f22_team37.lex
+	rm test1
+	lex CS315f22_team37.lex
+	yacc CS315f22_team37.yacc
+	gcc -o test1 y.tab.c 
